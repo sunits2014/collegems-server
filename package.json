@@ -1,0 +1,33 @@
+{
+  "name": "collegems-server",
+  "version": "1.0.0",
+  "description": "A NodeJs server for college management system",
+  "keywords": [
+    "server",
+    "cms"
+  ],
+  "homepage": "https://github.com/sunits2014/collegems-server#readme",
+  "bugs": {
+    "url": "https://github.com/sunits2014/collegems-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunits2014/collegems-server.git"
+  },
+  "license": "ISC",
+  "author": "Sunit Sinha",
+  "type": "commonjs",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "sequelize": "^6.37.6"
+  }
+}
